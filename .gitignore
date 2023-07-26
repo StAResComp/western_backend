@@ -1,0 +1,6 @@
+# keep device IDs out of repo
+db/data.sql
+# keep database details out of repo
+public/WESTERN/dbConfig.php
+# ignore backups
+**/*~
