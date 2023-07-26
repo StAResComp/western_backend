@@ -89,7 +89,7 @@ do {
 	    if (isset($c->{$j})) {
 		if (!$results = $db->addCatchDetail($catchID,
 						    $d,
-						    (float) $c->{$f})) {
+						    (float) $c->{$j})) {
 		    $message = 'problem adding catch detail';
 		    break 3;
 		}
