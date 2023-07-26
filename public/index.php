@@ -104,7 +104,10 @@ do {
 // handle error
 if ('' != $message) {
     http_response_code(400);
-    $db->rollback();
+    
+    if (NULL != $db) {
+	$db->rollback();
+    }
 } else {
     $message = 'OK';
 }
