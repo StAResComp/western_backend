@@ -18,7 +18,7 @@ $fields = ['numSmallCases' => 'neph_small',
 	   'numBrownRetained' => 'brown_retained',
 	   'numBrownReturned' => 'brown_returned',
 	   'numVelvetRetained' => 'velvet_retained',
-	   'numVelvetReturned' => 10,'velvet_returned',
+	   'numVelvetReturned' => 'velvet_returned',
 	   'numWrasseRetained' => 'wrasse_retained',
 	   'numWrasseReturned' => 'wrasse_returned'];
 
