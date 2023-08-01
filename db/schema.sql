@@ -17,7 +17,8 @@ CREATE TABLE catch_md (
   string_num TEXT,
   lat NUMERIC(15, 12),
   lon NUMERIC(15, 12),
-  time_stamp TIMESTAMP WITHOUT TIME ZONE
+  time_stamp TIMESTAMP WITHOUT TIME ZONE,
+  upload_time_stamp TIMESTAMP WITHOUT TIME ZONE DEFAULT NOW()
 );
 
 -- catch types
